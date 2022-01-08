@@ -24,5 +24,6 @@ with the remainder serving as a validation set.
 The NYU Depth V1 labeled dataset contains, among other variables, 2284 still images and their associated depths, which were recorded by the RGB and Depth cameras from a Microsoft Kinect [2].
 
 ## References
-[1] https://arxiv.org/abs/1406.2283
+[1] https://arxiv.org/abs/1406.2283  
+
 [2] https://cs.nyu.edu/~silberman/datasets/nyu_depth_v1.html
