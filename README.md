@@ -14,7 +14,11 @@ More detailed information can be found in the research paper MonocularDepthPred.
 
 ## Network
 ![network](Network.png "The Network")
-The network proposed by Eigen et al [1].
+The network proposed by Eigen et al [1].  
+
+Our network is composed of two convolutional neural networks, a coarse network and a fine network, which are used in conjunction to predict the depth of an image. The image is
+first fed through the coarse network, which outputs a depth prediction at the global scale. 
+The image and the output of the coarse network are then fed into the fine network, which outputs a final depth map prediction for the entire image.
 
 ## Training
 The model is trained on the NYU Depth V1 labeled dataset [2]. We use 800 randomly selected image-depth pairs, partitioned into a training set of 640 pairs,
