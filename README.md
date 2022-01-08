@@ -1,7 +1,7 @@
 # A Deep Learning Approach to Single-Image Depth Prediction
 
 ## Selected Results
-![Results](large_out_prelim_labeled.png "Some Results")
+![Results](results.png "Some Results")
 
 ## Overview
 Depth information is essential to numerous computer vision tasks, from autonomous driving to augmented reality. Traditional methods of depth estimation, such as
