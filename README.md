@@ -12,7 +12,7 @@ This method may alleviate some of the drawbacks of traditional methods while pro
 
 The network implemented in this project was first proposed by Eigen et al [1]. 
 
-More detailed information can be found in the research paper MonocularDepthPred.pdf.
+More detailed information can be found in our research paper MonocularDepthPred.pdf (stored in this repository).
 
 ## Network
 ![network](Network.png "The Network")
