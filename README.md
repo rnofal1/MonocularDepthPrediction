@@ -5,8 +5,10 @@
 
 ## Overview
 Depth information is essential to numerous computer vision tasks, from autonomous driving to augmented reality. Traditional methods of depth estimation, such as
-LIDAR and RGBD cameras, can be expensive, large, and susceptible to adverse weather conditions. This project implements a deep-learning assisted, monocular approach to depth prediction,
-which promises to alleviate some of the drawbacks of traditional methods.  
+LIDAR and RGBD cameras, can be expensive, large, and susceptible to adverse weather conditions. 
+
+This project implements an approach to depth prediction which extracts depth estimates from single images using a multi-scale deep network.
+This method may alleviate some of the drawbacks of traditional methods while providing reasonably accurate, useful data.  
 
 The network implemented in this project was first proposed by Eigen et al [1]. 
 
